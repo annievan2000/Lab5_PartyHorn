@@ -12,6 +12,6 @@ jobs:
         uses: Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
-          GITHUB_TOKEN: ${{ secrets.85e59d2aa1a148d8d6af5e36b62906218dfe07a7 }}
-          GIPHY_TOKEN: ${{ secrets.2p2Y5pvMDxr4l84myTcbdRoTxCYOl4NA }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIPHY_TOKEN: ${{ secrets.GIPHY_SECRET }}
           comment_type: 'gif'
